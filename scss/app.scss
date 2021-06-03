@@ -1,0 +1,51 @@
+@import 'global';
+
+
+
+.whoami {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 auto;
+  max-width: 85%;
+  height: 100vh;
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    text-shadow: 4px 4px 20px transparentize($white, 0.7);
+  }
+
+  h2 {
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+
+  h4 {
+    font-weight: normal;
+
+    a {
+      color: #f08080;
+    }
+  }
+
+  ul li {
+    display: inline-block;
+    margin-right: 2rem;
+
+    a {
+      font-size: 2rem;
+      color: rgb(224, 224, 224);
+      transition: .2s all ease-out;
+
+      &:hover {
+        color:rgba(224, 224, 224, 0.2);
+      }
+    }
+  }
+}
