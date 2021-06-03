@@ -1,7 +1,5 @@
 @import 'global';
 
-
-
 .whoami {
   display: flex;
   flex-direction: column;
@@ -11,6 +9,10 @@
   margin: 0 auto;
   max-width: 85%;
   height: 100vh;
+
+  span {
+    text-decoration: underline;
+  }
 
   h1 {
     font-family: 'Montserrat', sans-serif;
